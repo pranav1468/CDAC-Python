@@ -49,17 +49,17 @@
 
 # Question 5
 
-import mymod
-file = input("Enter the filename with path: ")
-print("Number of lines in the file:", mymod.count_lines(file))
-print("Number of characters in the file:", mymod.count_characters(file))
-print("Lines and characters:", mymod.test(file))
+# import mymod
+# file = input("Enter the filename with path: ")
+# print("Number of lines in the file:", mymod.count_lines(file))
+# print("Number of characters in the file:", mymod.count_characters(file))
+# print("Lines and characters:", mymod.test(file))
 
-from mymod import count_lines, count_characters, test
-file = input("Enter the filename with path: ")
-print("Number of lines in the file:", count_lines(file))
-print("Number of characters in the file:", count_characters(file))
-print("Lines and characters:", test(file))
+# from mymod import count_lines, count_characters, test
+# file = input("Enter the filename with path: ")
+# print("Number of lines in the file:", count_lines(file))
+# print("Number of characters in the file:", count_characters(file))
+# print("Lines and characters:", test(file))
 
 
 # Question 6
